@@ -1,0 +1,39 @@
+.sold{
+    top:0.5rem;
+    right: 0.5rem;
+}
+
+/* .breadcrumb-item{
+    color: white!important;
+} */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    color: white;
+}
+#sagUrun{
+    background-color: rgb(182, 164, 164)!important;
+}
+#satici{
+    padding:0 1rem;
+    background-color: white;
+    border: solid black 1px;
+    font-size: smaller;
+    height: auto;
+}
+.roundBadge{
+    border-radius: 50%!important;
+    background-color: red!important;
+    color: white;
+    border: solid black 1px;
+    padding: 0.09rem;
+}
+.squareBadge {
+    background-color:white;
+    color: black;
+    padding: 0.3rem 1rem;
+    text-align: center;
+    border-radius: 5px;
+    border:solid black 1px;
+    font-size: smaller;
+}

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="icons/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/my.css" />
+    <title>Benim eCommerzim</title>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container px-4 px-lg-5">
+        <a href="" class="navbar-brand">CODER</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-content"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbar-content" class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+            <li class="nav-item">
+              <a href="" class="nav-link active">Ana Sayfa</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href=""
+                class="nav-link dropdown-toggle"
+                id="navbar-dropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Kategoriler</a
+              >
+
+              <ul class="dropdown-menu">
+                <li><a href="" class="dropdown-item">Tüm Ürünler</a></li>
+                <li><a href="" class="dropdown-item">Bilgisayar</a></li>
+                <li><a href="" class="dropdown-item">Cep Telefonu</a></li>
+                <li><a href="" class="dropdown-item">Aksesuar</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link">Iletisim</a></li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn btn-outline-light">
+              <i class="bi-cart-fill me-1"></i> Sepet
+              <span class="badge bg-light text-dark ms-1 rounded-pill">0</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Slider start -->
+    <section class="container mt-0">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <!-- alttaki gecis dügmeleri - start -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <!-- alttaki gecis dügmeleri - end -->
+
+        <!-- resimler ve yazilar - start -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="resimler/shopping1.jpg"
+              class="d-block w-100"
+              alt="Slide 1"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Hersey Burada</h5>
+              <p>Ne istersen.....</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="resimler/shopping2.jpg"
+              class="d-block w-100"
+              alt="Slide 2"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Baska yerde arama</h5>
+              <p>A´dan Z´ye .....</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="resimler/shopping3.jpg"
+              class="d-block w-100"
+              alt="Slide 3"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Simdi al</h5>
+              <p>Baska zaman öde</p>
+            </div>
+          </div>
+        </div>
+        <!-- resimler ve yazilar - end -->
+
+        <!-- önceki ve sonraki butonlari - start -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <!-- önceki ve sonraki butonlari - end -->
+      </div>
+    </section>
+    <!-- Slider end -->
+
+    <!-- Products - start -->
+    <section class="container mt-5">
+      <div
+        class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+      >
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/450x300" alt="ürün" />
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5>Awesome Product</h5>
+                $50 - $75
+              </div>
+            </div>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+              <div class="text-center">
+                <a href="" class="btn btn-outline-dark mt-auto">Özellestir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <div class="badge bg-dark text-white position-absolute sold">
+              Tükendi
+            </div>
+            <img src="https://via.placeholder.com/450x300" alt="ürün" />
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5>Awesome Product</h5>
+                $50 - $75
+              </div>
+            </div>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+              <div class="text-center">
+                <a href="" class="btn btn-outline-dark mt-auto">Özellestir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/450x300" alt="ürün" />
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5>Awesome Product</h5>
+                $50 - $75
+              </div>
+            </div>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+              <div class="text-center">
+                <a href="" class="btn btn-outline-dark mt-auto">Özellestir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/450x300" alt="ürün" />
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5>Awesome Product</h5>
+                $50 - $75
+              </div>
+            </div>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+              <div class="text-center">
+                <a href="" class="btn btn-outline-dark mt-auto">Özellestir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/450x300" alt="ürün" />
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5>Awesome Product</h5>
+                $50 - $75
+              </div>
+            </div>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+              <div class="text-center">
+                <a href="" class="btn btn-outline-dark mt-auto">Özellestir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/450x300" alt="ürün" />
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5>Awesome Product</h5>
+                $50 - $75
+              </div>
+            </div>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+              <div class="text-center">
+                <a href="" class="btn btn-outline-dark mt-auto">Özellestir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <div class="badge bg-dark text-white position-absolute sold">
+              Tükendi
+            </div>
+            <img src="https://via.placeholder.com/450x300" alt="ürün" />
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5>Awesome Product</h5>
+                $50 - $75
+              </div>
+            </div>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+              <div class="text-center">
+                <a href="" class="btn btn-outline-dark mt-auto">Özellestir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/450x300" alt="ürün" />
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5>Awesome Product</h5>
+                $50 - $75
+              </div>
+            </div>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+              <div class="text-center">
+                <a href="" class="btn btn-outline-dark mt-auto">Özellestir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/450x300" alt="ürün" />
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5>Awesome Product</h5>
+                $50 - $75
+              </div>
+            </div>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+              <div class="text-center">
+                <a href="" class="btn btn-outline-dark mt-auto">Özellestir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <div class="badge bg-dark text-white position-absolute sold">
+              Tükendi
+            </div>
+            <img src="https://via.placeholder.com/450x300" alt="ürün" />
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5>Awesome Product</h5>
+                $50 - $75
+              </div>
+            </div>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+              <div class="text-center">
+                <a href="" class="btn btn-outline-dark mt-auto">Özellestir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/450x300" alt="ürün" />
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5>Awesome Product</h5>
+                $50 - $75
+              </div>
+            </div>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+              <div class="text-center">
+                <a href="" class="btn btn-outline-dark mt-auto">Özellestir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/450x300" alt="ürün" />
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5>Awesome Product</h5>
+                $50 - $75
+              </div>
+            </div>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+              <div class="text-center">
+                <a href="" class="btn btn-outline-dark mt-auto">Özellestir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products - end -->
+
+    <!-- footer - start -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy;Coder Akademi 2022
+        </p>
+      </div>
+    </footer>
+    <!-- footer - end -->
+
+    <script src="/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
